@@ -1,5 +1,5 @@
-202:2fe19c825809bba7aa7734c5449e596d00896092
-142
+205:feb2881fd89460bebec184cd6fde53103fe674e4
+144
 MAKEDEV
 x86_64
 0
@@ -671,6 +671,14 @@ x86_64
 2
 /bin/sh
 /sbin/install-info
+man
+x86_64
+0
+1.6f
+39.el6
+2
+/bin/bash
+/bin/sh
 module-init-tools
 x86_64
 0
@@ -1073,6 +1081,13 @@ x86_64
 2
 /bin/sh
 /sbin/install-info
+xz
+x86_64
+0
+4.999.9
+0.5.beta.20091007git.el6
+1
+/bin/sh
 xz-libs
 x86_64
 0

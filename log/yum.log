@@ -107,3 +107,6 @@ Dec 12 02:34:58 Erased: httpd
 Dec 12 02:34:59 Erased: httpd-tools
 Dec 12 02:42:21 Installed: httpd-tools-2.2.15-60.el6.centos.6.x86_64
 Dec 12 02:42:22 Installed: httpd-2.2.15-60.el6.centos.6.x86_64
+Dec 12 17:42:16 Installed: xz-4.999.9-0.5.beta.20091007git.el6.x86_64
+Dec 12 17:42:17 Installed: xz-lzma-compat-4.999.9-0.5.beta.20091007git.el6.x86_64
+Dec 12 17:42:18 Installed: man-1.6f-39.el6.x86_64

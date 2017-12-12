@@ -1,0 +1,35 @@
+202:2fe19c825809bba7aa7734c5449e596d00896092
+32
+6
+base:6706:1490724196
+epel:12443:1512947745
+extras:46:1506434984
+mongodb-org-3.4:55:1508956264
+nodesource:72:1512760150
+updates:834:1512574283
+3
+mbr: xz-lzma-compat,x86_64,0,4.999.9,0.5.beta.20091007git.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: man,x86_64,0,1.6f,39.el6@a:dependson
+  depends_on: man,x86_64,0,1.6f,39.el6@a
+mbr: man,x86_64,0,1.6f,39.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: xz,x86_64,0,4.999.9,0.5.beta.20091007git.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: xz-lzma-compat,x86_64,0,4.999.9,0.5.beta.20091007git.el6@a:dependson
+  depends_on: xz-lzma-compat,x86_64,0,4.999.9,0.5.beta.20091007git.el6@a
