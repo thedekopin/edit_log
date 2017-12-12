@@ -1,0 +1,115 @@
+186:d137bc97737ba0b821eb30bc59458a24a2587e40
+32
+5
+base:6706:1490724196
+epel:12441:1512436971
+extras:46:1506434984
+nodesource:69:1512542039
+updates:834:1512574283
+12
+mbr: libicu,x86_64,0,4.2.1,14.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: v8,x86_64,1,3.14.5.10,25.el6@a:dependson
+  depends_on: v8,x86_64,1,3.14.5.10,25.el6@a
+mbr: snappy,x86_64,0,1.1.0,1.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: boost-iostreams,x86_64,0,1.41.0,28.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: boost-filesystem,x86_64,0,1.41.0,28.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: gperftools-libs,x86_64,0,2.0,11.el6.3 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: libunwind,x86_64,0,1.1,3.el6 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: gperftools-libs,x86_64,0,2.0,11.el6.3@a:dependson
+  depends_on: gperftools-libs,x86_64,0,2.0,11.el6.3@a
+mbr: v8,x86_64,1,3.14.5.10,25.el6 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: mongodb,x86_64,0,2.4.14,4.el6 70
+  repo: epel
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: libpcap,x86_64,14,1.4.0,4.20130826git2dbcaa1.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: boost-thread,x86_64,0,1.41.0,28.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: boost-system,x86_64,0,1.41.0,28.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson boost-filesystem,x86_64,0,1.41.0,28.el6@a:dependson boost-filesystem,x86_64,0,1.41.0,28.el6@a:dependson boost-filesystem,x86_64,0,1.41.0,28.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a
+mbr: boost-program-options,x86_64,0,1.41.0,28.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: mongodb,x86_64,0,2.4.14,4.el6@a:dependson
+  depends_on: mongodb,x86_64,0,2.4.14,4.el6@a

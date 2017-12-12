@@ -1,0 +1,62 @@
+180:551799392e4d6d985273d38aceb5e68c1180ac74
+32
+5
+base:6706:1490724196
+epel:12441:1512270680
+extras:46:1506434984
+nodesource:66:1510095410
+updates:826:1511972738
+6
+mbr: perl-Error,noarch,1,0.17015,4.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,9.el6_9@a:dependson perl-Git,noarch,0,1.7.1,9.el6_9@a:dependson
+  depends_on: git,x86_64,0,1.7.1,9.el6_9@a
+mbr: openssh-clients,x86_64,0,5.3p1,123.el6_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,9.el6_9@a:dependson
+  depends_on: git,x86_64,0,1.7.1,9.el6_9@a
+mbr: libedit,x86_64,0,2.11,4.20080712cvs.1.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: openssh-clients,x86_64,0,5.3p1,123.el6_9@a:dependson
+  depends_on: openssh-clients,x86_64,0,5.3p1,123.el6_9@a
+mbr: perl-Git,noarch,0,1.7.1,9.el6_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,9.el6_9@a:dependson
+  depends_on: git,x86_64,0,1.7.1,9.el6_9@a
+mbr: rsync,x86_64,0,3.0.6,12.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: git,x86_64,0,1.7.1,9.el6_9@a:dependson
+  depends_on: git,x86_64,0,1.7.1,9.el6_9@a
+mbr: git,x86_64,0,1.7.1,9.el6_9 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+  relatedto: perl-Git,noarch,0,1.7.1,9.el6_9@a:dependson

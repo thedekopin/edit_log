@@ -1,0 +1,61 @@
+174:69d55694ec4ad613acec67f9bd97279b26ea9eb0
+32
+5
+base:6706:1490724196
+epel:12441:1512270680
+extras:46:1506434984
+nodesource:66:1510095410
+updates:826:1511972738
+6
+mbr: httpd-tools,x86_64,0,2.2.15,60.el6.centos.6 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a
+mbr: apr-util-ldap,x86_64,0,1.3.9,3.el6_0.1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a
+mbr: httpd,x86_64,0,2.2.15,60.el6.centos.6 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: False
+  reason: user
+  reinstall: False
+mbr: apr,x86_64,0,1.3.9,5.el6_9.1 70
+  repo: updates
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson apr-util,x86_64,0,1.3.9,3.el6_0.1@a:dependson httpd-tools,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a
+mbr: mailcap,noarch,0,2.1.31,2.el6 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a
+mbr: apr-util,x86_64,0,1.3.9,3.el6_0.1 70
+  repo: base
+  ts_state: u
+  output_state: 20
+  isDep: True
+  reason: dep
+  reinstall: False
+  relatedto: httpd,x86_64,0,2.2.15,60.el6.centos.6@a:dependson apr-util-ldap,x86_64,0,1.3.9,3.el6_0.1@a:dependson httpd-tools,x86_64,0,2.2.15,60.el6.centos.6@a:dependson
+  depends_on: httpd,x86_64,0,2.2.15,60.el6.centos.6@a
