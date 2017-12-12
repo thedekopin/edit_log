@@ -1,0 +1,11 @@
+198:ee93187e22379e8604cb94e14ef1468a93ef5617
+32
+0
+1
+mbr: mongodb,x86_64,0,2.4.14,4.el6 20
+  repo: installed
+  ts_state: e
+  output_state: 40
+  isDep: False
+  reason: user
+  reinstall: False
